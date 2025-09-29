@@ -1,0 +1,46 @@
+:root{
+  --brand:#0033DD;
+  --text:#111827;
+  --muted:#6b7280;
+  --page-bg:#d9d9d9;
+  --card:#ffffff;
+  --line:#e6e6e6;
+  --radius:24px;
+  --shadow:0 12px 40px rgba(0,0,0,.08);
+  --shadow-soft:0 8px 24px rgba(0,0,0,.06);
+  --item-shadow:0 12px 28px rgba(0,0,0,.06);
+
+  --promo-bottom:0px;
+  --promo-grad-h:180px;
+
+  /* QR fijo */
+  --qr-right:24px;
+  --qr-bottom:24px;
+
+  /* Título QR “View on mobile” */
+  --qr-title-shift:-6px;
+
+  --caption-gap:14px;
+  --caption-up:6px;
+  --caption-bottom:16px;
+
+  /* Perfil / avatar */
+  --profile-pad-top:106px;
+  --avatar-pop:-6px;
+  --name-nudge:-4px;
+  --badge-size:22px;
+
+  /* Íconos superiores */
+  --icons-top:28px;
+  --icons-side:36px;
+  --icons-size:20px;
+}
+
+@media (max-width:420px){
+  :root{
+    --profile-pad-top:100px;
+    --avatar-pop:-4px;
+    --name-nudge:-2px;
+    --icons-side:28px;
+  }
+}
